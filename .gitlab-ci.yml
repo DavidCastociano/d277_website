@@ -1,0 +1,13 @@
+stages:
+  - deploy
+
+deploy_pages:
+  stage: deploy
+  script:
+    - mkdir .public
+    - cp -r * .public
+  artifacts:
+    paths:
+      - .public
+  only:
+    - main  # Or the branch you want to deploy from
