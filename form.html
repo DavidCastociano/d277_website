@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webform</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="form.js"></script>
 </head>
 <body>
     <h1><a href="index.html">Visit New Jersey</a></h1>
     <h2>Request more information</h2>
     <section>
-        <form action="#" method="post">
+        <form onsubmit="return check()">
             <label for="first-name">First Name:</label>
             <input type="text" id="first-name" name="first-name" required><br><br>
             
