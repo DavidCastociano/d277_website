@@ -1,0 +1,106 @@
+/* Font family declaration for D1 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* a :hover pseudo-class for D2 */
+nav a:hover {
+    color: #004d99;
+    text-decoration: underline;
+}
+
+/* 3. float property for D3 */
+section {
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. Absolute Positioning  for D4 */
+#absolute-positioned {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 5. Relative Positioning for D5 */
+#relative-positioned {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Element Selector (h1) for D6 */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Class Selector for D6 (used twice in the HTML file) */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    float: right;
+    margin-right: 20px;
+}
+
+/* ID Selector for D6 (used once on the page) */
+#main-content {
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+/* extra styling for talbe */
+ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+p{
+    font-size: 32px;
+    line-height: 1.8;
+    color: #555;
+}
