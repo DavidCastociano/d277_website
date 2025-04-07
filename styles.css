@@ -104,3 +104,10 @@ p{
     line-height: 1.8;
     color: #555;
 }
+/* didnt like how variable the images are, added a standard image size */
+img {
+    width: 800px;  
+    height: 600px; 
+    display: block; 
+    margin: 10px auto; 
+}
